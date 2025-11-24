@@ -1,0 +1,47 @@
+{
+  "conversation": [
+    [
+      "bot",
+      "What problem are you facing? Please describe your main symptom in one sentence."
+    ],
+    [
+      "patient",
+      "throat pain and cough"
+    ],
+    [
+      "bot",
+      "When did the throat pain and cough start, and have you experienced any other symptoms like fever or difficulty swallowing?"
+    ],
+    [
+      "patient",
+      "cough started 2 days ago , i have difficulty in swallowing"
+    ],
+    [
+      "bot",
+      "I'm NIVA, a careful clinical assistant.\n\nCan you tell me more about the difficulty in swallowing? Is it making food or liquids hard to pass down your throat, or are you having trouble clearing your throat of mucus?"
+    ],
+    [
+      "patient",
+      "yes it is making food and liquid hard to pass down"
+    ],
+    [
+      "bot",
+      "So, the difficulty in swallowing makes both food and liquids hard to pass down your throat. Have you noticed any changes in the consistency or amount of saliva you produce?"
+    ],
+    [
+      "patient",
+      "no"
+    ],
+    [
+      "bot",
+      "I'm NIVA, a careful clinical assistant.\n\nSo, the difficulty in swallowing makes both food and liquids hard to pass down your throat. Have you experienced any pain or discomfort while eating or drinking?"
+    ]
+  ],
+  "structured": {
+    "notes": "Bot: What problem are you facing? Please describe your main symptom in one sentence.\nPatient: throat pain and cough\nBot: When did the throat pain and cough start, and have you experienced any other symptoms like fever or difficulty swallowing?\nPatient: cough started 2 days ago , i have difficulty in swallowing\nBot: I'm NIVA, a careful clinical assistant.\n\nCan you tell me more about the difficulty in swallowing? Is it making food or liquids hard to pass down your throat, or are you having trouble clearing your throat of mucus?\nPatient: yes it is making food and liquid hard to pass down\nBot: So, the difficulty in swallowing makes both food and liquids hard to pass down your throat. Have you noticed any changes in the consistency or amount of saliva you produce?\nPatient: no\nBot: I'm NIVA, a careful clinical assistant.\n\nSo, the difficulty in swallowing makes both food and liquids hard to pass down your throat. Have you experienced any pain or discomfort while eating or drinking?"
+  },
+  "triage": {
+    "specialist": "General Physician",
+    "urgency": "low"
+  }
+}

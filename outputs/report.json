@@ -1,0 +1,20 @@
+{
+  "chat_history": "Patient: I have chest pain since morning. Bot: ... Patient: The pain is sharp, dizzy, vomit sometimes.",
+  "structured": {
+    "symptoms": [
+      "chest pain",
+      "sharp pain",
+      "dizziness",
+      "vomiting"
+    ],
+    "duration": "morning",
+    "severity": "severe",
+    "medications": [],
+    "allergies": [],
+    "urgency": "high"
+  },
+  "triage": {
+    "specialist": "Cardiology/Emergency",
+    "urgency": "high"
+  }
+}
